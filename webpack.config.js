@@ -14,6 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "images/[hash][ext][query]",
+    filename: "gScript.js",
   },
   module: {
     rules: [
