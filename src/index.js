@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const car = {
   brand: "Mercedez",
   cost: "1Cr",

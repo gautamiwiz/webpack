@@ -1,0 +1,14 @@
+@use "global";
+
+body {
+  background-color: global.$bg-color;
+  color: var(--font-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
